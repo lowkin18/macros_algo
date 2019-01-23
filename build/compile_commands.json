@@ -1,0 +1,12 @@
+[
+{
+  "directory": "C:/Users/kipke/OneDrive/Documents/Programming/C_PROJECTS/quick_sort/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/quick_sort.dir/includes_C.rsp -std=c11 -g   -o CMakeFiles\\quick_sort.dir\\src\\quick_sort.c.obj   -c C:\\Users\\kipke\\OneDrive\\Documents\\Programming\\C_PROJECTS\\quick_sort\\src\\quick_sort.c",
+  "file": "C:/Users/kipke/OneDrive/Documents/Programming/C_PROJECTS/quick_sort/src/quick_sort.c"
+},
+{
+  "directory": "C:/Users/kipke/OneDrive/Documents/Programming/C_PROJECTS/quick_sort/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/quick_sort.dir/includes_C.rsp -std=c11 -g   -o CMakeFiles\\quick_sort.dir\\test\\quick_sort_test.c.obj   -c C:\\Users\\kipke\\OneDrive\\Documents\\Programming\\C_PROJECTS\\quick_sort\\test\\quick_sort_test.c",
+  "file": "C:/Users/kipke/OneDrive/Documents/Programming/C_PROJECTS/quick_sort/test/quick_sort_test.c"
+}
+]

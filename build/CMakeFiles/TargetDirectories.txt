@@ -1,0 +1,4 @@
+C:/Users/kipke/OneDrive/Documents/Programming/C_PROJECTS/quick_sort/build/CMakeFiles/rebuild_cache.dir
+C:/Users/kipke/OneDrive/Documents/Programming/C_PROJECTS/quick_sort/build/CMakeFiles/test.dir
+C:/Users/kipke/OneDrive/Documents/Programming/C_PROJECTS/quick_sort/build/CMakeFiles/quick_sort.dir
+C:/Users/kipke/OneDrive/Documents/Programming/C_PROJECTS/quick_sort/build/CMakeFiles/edit_cache.dir
