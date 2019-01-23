@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/merge_sort.h
+stdio.h
+-
+
+C:/Users/kipke/OneDrive/Documents/Programming/C_PROJECTS/quick_sort/src/merge_sort.c
+merge_sort.h
+C:/Users/kipke/OneDrive/Documents/Programming/C_PROJECTS/quick_sort/src/merge_sort.h
+

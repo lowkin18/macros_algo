@@ -121,17 +121,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named quick_sort
+# Target rules for targets named algo_test
 
 # Build rule for target.
-quick_sort: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 quick_sort
-.PHONY : quick_sort
+algo_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 algo_test
+.PHONY : algo_test
 
 # fast build rule for target.
-quick_sort/fast:
-	$(MAKE) -f CMakeFiles\quick_sort.dir\build.make CMakeFiles/quick_sort.dir/build
-.PHONY : quick_sort/fast
+algo_test/fast:
+	$(MAKE) -f CMakeFiles\algo_test.dir\build.make CMakeFiles/algo_test.dir/build
+.PHONY : algo_test/fast
+
+src/merge_sort.obj: src/merge_sort.c.obj
+
+.PHONY : src/merge_sort.obj
+
+# target to build an object file
+src/merge_sort.c.obj:
+	cd /d c:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\quick_sort\build && $(MAKE) -f CMakeFiles\algo_test.dir\build.make CMakeFiles/algo_test.dir/src/merge_sort.c.obj
+.PHONY : src/merge_sort.c.obj
+
+src/merge_sort.i: src/merge_sort.c.i
+
+.PHONY : src/merge_sort.i
+
+# target to preprocess a source file
+src/merge_sort.c.i:
+	cd /d c:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\quick_sort\build && $(MAKE) -f CMakeFiles\algo_test.dir\build.make CMakeFiles/algo_test.dir/src/merge_sort.c.i
+.PHONY : src/merge_sort.c.i
+
+src/merge_sort.s: src/merge_sort.c.s
+
+.PHONY : src/merge_sort.s
+
+# target to generate assembly for a file
+src/merge_sort.c.s:
+	cd /d c:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\quick_sort\build && $(MAKE) -f CMakeFiles\algo_test.dir\build.make CMakeFiles/algo_test.dir/src/merge_sort.c.s
+.PHONY : src/merge_sort.c.s
 
 src/quick_sort.obj: src/quick_sort.c.obj
 
@@ -139,7 +166,7 @@ src/quick_sort.obj: src/quick_sort.c.obj
 
 # target to build an object file
 src/quick_sort.c.obj:
-	cd /d c:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\quick_sort\build && $(MAKE) -f CMakeFiles\quick_sort.dir\build.make CMakeFiles/quick_sort.dir/src/quick_sort.c.obj
+	cd /d c:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\quick_sort\build && $(MAKE) -f CMakeFiles\algo_test.dir\build.make CMakeFiles/algo_test.dir/src/quick_sort.c.obj
 .PHONY : src/quick_sort.c.obj
 
 src/quick_sort.i: src/quick_sort.c.i
@@ -148,7 +175,7 @@ src/quick_sort.i: src/quick_sort.c.i
 
 # target to preprocess a source file
 src/quick_sort.c.i:
-	cd /d c:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\quick_sort\build && $(MAKE) -f CMakeFiles\quick_sort.dir\build.make CMakeFiles/quick_sort.dir/src/quick_sort.c.i
+	cd /d c:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\quick_sort\build && $(MAKE) -f CMakeFiles\algo_test.dir\build.make CMakeFiles/algo_test.dir/src/quick_sort.c.i
 .PHONY : src/quick_sort.c.i
 
 src/quick_sort.s: src/quick_sort.c.s
@@ -157,7 +184,7 @@ src/quick_sort.s: src/quick_sort.c.s
 
 # target to generate assembly for a file
 src/quick_sort.c.s:
-	cd /d c:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\quick_sort\build && $(MAKE) -f CMakeFiles\quick_sort.dir\build.make CMakeFiles/quick_sort.dir/src/quick_sort.c.s
+	cd /d c:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\quick_sort\build && $(MAKE) -f CMakeFiles\algo_test.dir\build.make CMakeFiles/algo_test.dir/src/quick_sort.c.s
 .PHONY : src/quick_sort.c.s
 
 test/quick_sort_test.obj: test/quick_sort_test.c.obj
@@ -166,7 +193,7 @@ test/quick_sort_test.obj: test/quick_sort_test.c.obj
 
 # target to build an object file
 test/quick_sort_test.c.obj:
-	cd /d c:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\quick_sort\build && $(MAKE) -f CMakeFiles\quick_sort.dir\build.make CMakeFiles/quick_sort.dir/test/quick_sort_test.c.obj
+	cd /d c:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\quick_sort\build && $(MAKE) -f CMakeFiles\algo_test.dir\build.make CMakeFiles/algo_test.dir/test/quick_sort_test.c.obj
 .PHONY : test/quick_sort_test.c.obj
 
 test/quick_sort_test.i: test/quick_sort_test.c.i
@@ -175,7 +202,7 @@ test/quick_sort_test.i: test/quick_sort_test.c.i
 
 # target to preprocess a source file
 test/quick_sort_test.c.i:
-	cd /d c:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\quick_sort\build && $(MAKE) -f CMakeFiles\quick_sort.dir\build.make CMakeFiles/quick_sort.dir/test/quick_sort_test.c.i
+	cd /d c:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\quick_sort\build && $(MAKE) -f CMakeFiles\algo_test.dir\build.make CMakeFiles/algo_test.dir/test/quick_sort_test.c.i
 .PHONY : test/quick_sort_test.c.i
 
 test/quick_sort_test.s: test/quick_sort_test.c.s
@@ -184,7 +211,7 @@ test/quick_sort_test.s: test/quick_sort_test.c.s
 
 # target to generate assembly for a file
 test/quick_sort_test.c.s:
-	cd /d c:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\quick_sort\build && $(MAKE) -f CMakeFiles\quick_sort.dir\build.make CMakeFiles/quick_sort.dir/test/quick_sort_test.c.s
+	cd /d c:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\quick_sort\build && $(MAKE) -f CMakeFiles\algo_test.dir\build.make CMakeFiles/algo_test.dir/test/quick_sort_test.c.s
 .PHONY : test/quick_sort_test.c.s
 
 # Help Target
@@ -193,10 +220,13 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... algo_test
 	@echo ... rebuild_cache
 	@echo ... test
-	@echo ... quick_sort
 	@echo ... edit_cache
+	@echo ... src/merge_sort.obj
+	@echo ... src/merge_sort.i
+	@echo ... src/merge_sort.s
 	@echo ... src/quick_sort.obj
 	@echo ... src/quick_sort.i
 	@echo ... src/quick_sort.s
