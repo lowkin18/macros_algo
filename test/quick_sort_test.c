@@ -10,11 +10,6 @@ int test_quick_sort(int arr[],int start,int end);
 int main()
 {
 srand(time(NULL));
-
-
-
-
-
 for(int i = 0; i<ARR_SIZE; i++)
     {   
         arrVal[i] = rand();
@@ -36,8 +31,6 @@ for(int i = 0; i<ARR_SIZE; i++)
     }
 
 }
-
-
 int test_quick_sort(int arr[],int start,int end)
 {
 
