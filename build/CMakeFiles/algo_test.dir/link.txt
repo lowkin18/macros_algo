@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\algo_test.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\algo_test.dir/objects.a @CMakeFiles\algo_test.dir\objects1.rsp
-C:\MinGW\bin\gcc.exe -std=c11 -g   -Wl,--whole-archive CMakeFiles\algo_test.dir/objects.a -Wl,--no-whole-archive  -o algo_test.exe -Wl,--out-implib,libalgo_test.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\algo_test.dir\linklibs.rsp
