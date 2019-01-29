@@ -4,12 +4,7 @@ message("PROJECT_SOURCE_DIR points to " ${PROJECT_SOURCE_DIR})
 set(CMAKE_CXX_COMPILER /MinGW/bin/gcc.exe)
 set(CMAKE_C_FLAGS "-std=c11")
 set(SOURCES src/quick_sort.c test/quick_sort_test.c src/merge_sort.c)
-include(CTest)
-enable_testing()
 
 include_directories ("${PROJECT_SOURCE_DIR}/include")
 add_executable(algo_test ${SOURCES})
 
-set(CPACK_PROJECT_NAME ${PROJECT_NAME})
-set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
-include(CPack)
