@@ -47,10 +47,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\quick_sort
+CMAKE_SOURCE_DIR = C:\Users\kipke\Desktop\Programming\quick_sort
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\quick_sort\build
+CMAKE_BINARY_DIR = C:\Users\kipke\Desktop\Programming\quick_sort\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,14 +79,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d c:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\quick_sort\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\quick_sort\build\CMakeFiles C:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\quick_sort\build\CMakeFiles\progress.marks
-	cd /d c:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\quick_sort\build && $(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\quick_sort\build\CMakeFiles 0
+	cd /d c:\Users\kipke\Desktop\Programming\quick_sort\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kipke\Desktop\Programming\quick_sort\build\CMakeFiles C:\Users\kipke\Desktop\Programming\quick_sort\build\CMakeFiles\progress.marks
+	cd /d c:\Users\kipke\Desktop\Programming\quick_sort\build && $(MAKE) -f CMakeFiles\Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kipke\Desktop\Programming\quick_sort\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d c:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\quick_sort\build && $(MAKE) -f CMakeFiles\Makefile2 clean
+	cd /d c:\Users\kipke\Desktop\Programming\quick_sort\build && $(MAKE) -f CMakeFiles\Makefile2 clean
 .PHONY : clean
 
 # The main clean target
@@ -96,17 +96,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d c:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\quick_sort\build && $(MAKE) -f CMakeFiles\Makefile2 preinstall
+	cd /d c:\Users\kipke\Desktop\Programming\quick_sort\build && $(MAKE) -f CMakeFiles\Makefile2 preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d c:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\quick_sort\build && $(MAKE) -f CMakeFiles\Makefile2 preinstall
+	cd /d c:\Users\kipke\Desktop\Programming\quick_sort\build && $(MAKE) -f CMakeFiles\Makefile2 preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d c:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\quick_sort\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d c:\Users\kipke\Desktop\Programming\quick_sort\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 #=============================================================================
@@ -122,40 +122,13 @@ quick_sort/fast:
 	$(MAKE) -f CMakeFiles\quick_sort.dir\build.make CMakeFiles/quick_sort.dir/build
 .PHONY : quick_sort/fast
 
-src/merge_sort.obj: src/merge_sort.c.obj
-
-.PHONY : src/merge_sort.obj
-
-# target to build an object file
-src/merge_sort.c.obj:
-	cd /d c:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\quick_sort\build && $(MAKE) -f CMakeFiles\quick_sort.dir\build.make CMakeFiles/quick_sort.dir/src/merge_sort.c.obj
-.PHONY : src/merge_sort.c.obj
-
-src/merge_sort.i: src/merge_sort.c.i
-
-.PHONY : src/merge_sort.i
-
-# target to preprocess a source file
-src/merge_sort.c.i:
-	cd /d c:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\quick_sort\build && $(MAKE) -f CMakeFiles\quick_sort.dir\build.make CMakeFiles/quick_sort.dir/src/merge_sort.c.i
-.PHONY : src/merge_sort.c.i
-
-src/merge_sort.s: src/merge_sort.c.s
-
-.PHONY : src/merge_sort.s
-
-# target to generate assembly for a file
-src/merge_sort.c.s:
-	cd /d c:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\quick_sort\build && $(MAKE) -f CMakeFiles\quick_sort.dir\build.make CMakeFiles/quick_sort.dir/src/merge_sort.c.s
-.PHONY : src/merge_sort.c.s
-
 src/quick_sort.obj: src/quick_sort.c.obj
 
 .PHONY : src/quick_sort.obj
 
 # target to build an object file
 src/quick_sort.c.obj:
-	cd /d c:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\quick_sort\build && $(MAKE) -f CMakeFiles\quick_sort.dir\build.make CMakeFiles/quick_sort.dir/src/quick_sort.c.obj
+	cd /d c:\Users\kipke\Desktop\Programming\quick_sort\build && $(MAKE) -f CMakeFiles\quick_sort.dir\build.make CMakeFiles/quick_sort.dir/src/quick_sort.c.obj
 .PHONY : src/quick_sort.c.obj
 
 src/quick_sort.i: src/quick_sort.c.i
@@ -164,7 +137,7 @@ src/quick_sort.i: src/quick_sort.c.i
 
 # target to preprocess a source file
 src/quick_sort.c.i:
-	cd /d c:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\quick_sort\build && $(MAKE) -f CMakeFiles\quick_sort.dir\build.make CMakeFiles/quick_sort.dir/src/quick_sort.c.i
+	cd /d c:\Users\kipke\Desktop\Programming\quick_sort\build && $(MAKE) -f CMakeFiles\quick_sort.dir\build.make CMakeFiles/quick_sort.dir/src/quick_sort.c.i
 .PHONY : src/quick_sort.c.i
 
 src/quick_sort.s: src/quick_sort.c.s
@@ -173,7 +146,7 @@ src/quick_sort.s: src/quick_sort.c.s
 
 # target to generate assembly for a file
 src/quick_sort.c.s:
-	cd /d c:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\quick_sort\build && $(MAKE) -f CMakeFiles\quick_sort.dir\build.make CMakeFiles/quick_sort.dir/src/quick_sort.c.s
+	cd /d c:\Users\kipke\Desktop\Programming\quick_sort\build && $(MAKE) -f CMakeFiles\quick_sort.dir\build.make CMakeFiles/quick_sort.dir/src/quick_sort.c.s
 .PHONY : src/quick_sort.c.s
 
 test/quick_sort_test.obj: test/quick_sort_test.c.obj
@@ -182,7 +155,7 @@ test/quick_sort_test.obj: test/quick_sort_test.c.obj
 
 # target to build an object file
 test/quick_sort_test.c.obj:
-	cd /d c:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\quick_sort\build && $(MAKE) -f CMakeFiles\quick_sort.dir\build.make CMakeFiles/quick_sort.dir/test/quick_sort_test.c.obj
+	cd /d c:\Users\kipke\Desktop\Programming\quick_sort\build && $(MAKE) -f CMakeFiles\quick_sort.dir\build.make CMakeFiles/quick_sort.dir/test/quick_sort_test.c.obj
 .PHONY : test/quick_sort_test.c.obj
 
 test/quick_sort_test.i: test/quick_sort_test.c.i
@@ -191,7 +164,7 @@ test/quick_sort_test.i: test/quick_sort_test.c.i
 
 # target to preprocess a source file
 test/quick_sort_test.c.i:
-	cd /d c:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\quick_sort\build && $(MAKE) -f CMakeFiles\quick_sort.dir\build.make CMakeFiles/quick_sort.dir/test/quick_sort_test.c.i
+	cd /d c:\Users\kipke\Desktop\Programming\quick_sort\build && $(MAKE) -f CMakeFiles\quick_sort.dir\build.make CMakeFiles/quick_sort.dir/test/quick_sort_test.c.i
 .PHONY : test/quick_sort_test.c.i
 
 test/quick_sort_test.s: test/quick_sort_test.c.s
@@ -200,7 +173,7 @@ test/quick_sort_test.s: test/quick_sort_test.c.s
 
 # target to generate assembly for a file
 test/quick_sort_test.c.s:
-	cd /d c:\Users\kipke\OneDrive\Documents\Programming\C_PROJECTS\quick_sort\build && $(MAKE) -f CMakeFiles\quick_sort.dir\build.make CMakeFiles/quick_sort.dir/test/quick_sort_test.c.s
+	cd /d c:\Users\kipke\Desktop\Programming\quick_sort\build && $(MAKE) -f CMakeFiles\quick_sort.dir\build.make CMakeFiles/quick_sort.dir/test/quick_sort_test.c.s
 .PHONY : test/quick_sort_test.c.s
 
 # Help Target
@@ -212,9 +185,6 @@ help:
 	@echo ... rebuild_cache
 	@echo ... quick_sort
 	@echo ... edit_cache
-	@echo ... src/merge_sort.obj
-	@echo ... src/merge_sort.i
-	@echo ... src/merge_sort.s
 	@echo ... src/quick_sort.obj
 	@echo ... src/quick_sort.i
 	@echo ... src/quick_sort.s

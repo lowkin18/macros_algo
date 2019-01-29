@@ -4,9 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/kipke/OneDrive/Documents/Programming/C_PROJECTS/quick_sort/src/merge_sort.c" "C:/Users/kipke/OneDrive/Documents/Programming/C_PROJECTS/quick_sort/build/CMakeFiles/quick_sort.dir/src/merge_sort.c.obj"
-  "C:/Users/kipke/OneDrive/Documents/Programming/C_PROJECTS/quick_sort/src/quick_sort.c" "C:/Users/kipke/OneDrive/Documents/Programming/C_PROJECTS/quick_sort/build/CMakeFiles/quick_sort.dir/src/quick_sort.c.obj"
-  "C:/Users/kipke/OneDrive/Documents/Programming/C_PROJECTS/quick_sort/test/quick_sort_test.c" "C:/Users/kipke/OneDrive/Documents/Programming/C_PROJECTS/quick_sort/build/CMakeFiles/quick_sort.dir/test/quick_sort_test.c.obj"
+  "C:/Users/kipke/Desktop/Programming/quick_sort/src/quick_sort.c" "C:/Users/kipke/Desktop/Programming/quick_sort/build/CMakeFiles/quick_sort.dir/src/quick_sort.c.obj"
+  "C:/Users/kipke/Desktop/Programming/quick_sort/test/quick_sort_test.c" "C:/Users/kipke/Desktop/Programming/quick_sort/build/CMakeFiles/quick_sort.dir/test/quick_sort_test.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
