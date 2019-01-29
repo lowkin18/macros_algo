@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\quick_sort.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\quick_sort.dir/objects.a @CMakeFiles\quick_sort.dir\objects1.rsp
-C:\MinGW\bin\gcc.exe -std=c11 -g   -Wl,--whole-archive CMakeFiles\quick_sort.dir/objects.a -Wl,--no-whole-archive  -o quick_sort.exe -Wl,--out-implib,libquick_sort.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\quick_sort.dir\linklibs.rsp

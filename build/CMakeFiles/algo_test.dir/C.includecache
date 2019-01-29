@@ -10,7 +10,23 @@
 stdio.h
 -
 
+../include/quick_sort.h
+stdio.h
+-
+stdlib.h
+-
+
 C:/Users/kipke/OneDrive/Documents/Programming/C_PROJECTS/quick_sort/src/merge_sort.c
 merge_sort.h
 C:/Users/kipke/OneDrive/Documents/Programming/C_PROJECTS/quick_sort/src/merge_sort.h
+
+C:/Users/kipke/OneDrive/Documents/Programming/C_PROJECTS/quick_sort/src/quick_sort.c
+quick_sort.h
+C:/Users/kipke/OneDrive/Documents/Programming/C_PROJECTS/quick_sort/src/quick_sort.h
+
+C:/Users/kipke/OneDrive/Documents/Programming/C_PROJECTS/quick_sort/test/quick_sort_test.c
+quick_sort.h
+C:/Users/kipke/OneDrive/Documents/Programming/C_PROJECTS/quick_sort/test/quick_sort.h
+time.h
+-
 
